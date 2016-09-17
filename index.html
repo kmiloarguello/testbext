@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>Fondo Nacional del Ahorrro</title>
-        <link rel="shortcut icon" href="img/logo_fna_7GV_icon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/logo_fna_7GV_icon.ico" type="image/x-icon"/>
         
         
         <!--Import Google Icon Font-->
@@ -13,11 +13,24 @@
         <!-- BOOTSTRAP -->
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
         
-        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
         
         <!-- Media Query -->
+        <!-- LARGE --->
+        <link rel="stylesheet" media="screen and (min-width : 1824px)" href="css/large.css" type="text/css"/>
         
-        <!--<link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 480px) "href="css/phone1.css" />-->
+        <!-- DESKTOP --->
+        <link rel="stylesheet" media="screen and (min-width : 1224px)" href="css/desktop.css" type="text/css"/>
+        
+        <!-- IPAD --->
+        <link rel="stylesheet" media="screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)" href="css/ipad_portrait.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)" href="css/ipad_landscape.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (min-device-width : 768px) and (max-device-width : 1024px)" href="css/ipads.css" type="text/css"/>
+        
+        <!-- SMARTPHONE --->
+        <link rel="stylesheet" media="screen and (max-device-width : 320px)" href="css/smartphone_portrait.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (min-device-width : 321px)" href="css/smartphone_landscape.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (min-device-width : 320px) and (max-device-width : 480px)" href="css/smartphones.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (min-device-pixel-ratio : 1.5)" href="css/iphone4.css" type="text/css"/>
         
     </head>
     
@@ -97,7 +110,12 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja9"><h1>Izquierda</h1></div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja10"><h1>Centro</h1></div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja11"><h1>Derecha</h1></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja11">
+                        <div class="subcaja"><p>Chat</p></div>
+                        <div class="subcaja"><p>Correo</p></div>
+                        <div class="subcaja"><p>Puntos</p></div>
+                        <div class="subcaja2"><p>Chat</p></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -109,11 +127,13 @@
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja12"><h1>Centro</h1></div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja12"><h1>Derecha</h1></div>
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h1>Centro</h1></div>
             </div>
         </footer>
         
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
     
     
