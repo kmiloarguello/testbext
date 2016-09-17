@@ -1,14 +1,15 @@
 /* MAIN JS */
 
-var mq = window.matchMedia( "(max-width: 768px)" );
+// var mq = window.matchMedia( "screen and (max-width : 480px)" );
     
-if (mq.matches) {
+if (screen.width >= 767) {
   document.getElementById("ahorros").className = "";
   document.getElementById("cesantias").className = "";
   document.getElementById("vivienda").className = "";
   document.getElementById("educacion").className = "";
   document.getElementById("ayuda").className = "";
-} else {
+} 
+else {
   document.getElementById("ahorros").className = "container";
   document.getElementById("cesantias").className = "container";
   document.getElementById("vivienda").className = "container";
