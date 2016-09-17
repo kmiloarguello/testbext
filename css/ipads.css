@@ -8,6 +8,10 @@
         background-color: #fff;
     }
     
+    /*---------------------------------------------------------------------*/
+    /*------------------------------ HEADER -------------------------------*/
+    /*---------------------------------------------------------------------*/
+    
     .links_up{
         padding: 15px 0;
         background-color: #fff;
@@ -16,67 +20,87 @@
         background-color: gray;
         padding: 30px 0;
     }
+    
+    /*---------------------------------------------------------------------*/
+    /*------------------------------ SLIDER -------------------------------*/
+    /*---------------------------------------------------------------------*/
 
     #slider{
         background-color: #3c67de;
         height: 536px;
     }
+    
+    /*---------------------------------------------------------------------*/
+    /*-------------------------- MENU PRINCIPAL ---------------------------*/
+    /*---------------------------------------------------------------------*/
     #quicklinks{
         background-color: #fff;
         border-bottom: 1px solid #e5e5e5;
         text-align: center;
     }
-    #caja1{
+    #nav1{
       padding: 40px 0;
       border-right: 1px solid #e5e5e5;
     }
-    #caja2{
+    #nav2{
         padding: 40px 0;
         border-right: 1px solid #e5e5e5;
     }
-    #caja3{
+    #nav3{
         padding: 40px 0;
         border-right: 1px solid #e5e5e5;
     }
-    #caja4{
+    #nav4{
         padding: 40px 0;
         border-right: 1px solid #e5e5e5;
     }
-    #caja5{
+    #nav5{
         padding: 40px 0;
         border-right: 1px solid #e5e5e5;
     }
-    #caja6{
+    #nav6{
        padding: 40px 0;
         
     }
+    
+    /*---------------------------------------------------------------------*/
+    /*------------------------- SECCION AHORROS ---------------------------*/
+    /*---------------------------------------------------------------------*/
     #ahorros{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
         text-align: center;
         padding-top: 100px
     }
-    #caja7{
+    #izq_box{
        padding: 50px 0;
        border-bottom: 1px solid #e5e5e5;
     }
-    #caja8{
+    #der_box{
        padding: 50px 0;
        background-color: #fff;
     }
-    
+    /*---------------------------------------------------------------------*/
+    /*------------------------- SECCION CESANTIAS -------------------------*/
+    /*---------------------------------------------------------------------*/
     #cesantias{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
         text-align: center;
         padding-top: 100px
     }
+    /*---------------------------------------------------------------------*/
+    /*------------------------- SECCION VIVIENDA --------------------------*/
+    /*---------------------------------------------------------------------*/
     #vivienda{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
         text-align: center;
         padding-top: 100px
     }
+    /*---------------------------------------------------------------------*/
+    /*------------------------- SECCION EDUCACION --------------------------*/
+    /*---------------------------------------------------------------------*/
     #educacion{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
@@ -87,31 +111,38 @@
         background: #3c67de;
         text-align: center;
     }
+    
+    #caja_izq{
+        background-color: #3c67de;
+        color: white;
+        padding: 50px 0;
+    }
+    #caja_cen{
+        background-color: #3c67de;
+        padding: 50px 0;
+        color: white;
+    }
+    #caja_der{
+        background-color: #fff;
+        padding: 50px 0;
+    }
     .subcaja{
         border-bottom: 1px solid #e5e5e5;
     }
     .subcaja2{
         background-color: #F7F8FA;
     }
-    #caja9{
-        background-color: #3c67de;
-        color: white;
-        padding: 50px 0;
-    }
-    #caja10{
-        background-color: #3c67de;
-        padding: 50px 0;
-        color: white;
-    }
-    #caja11{
-        background-color: #fff;
-        padding: 50px 0;
-    }
+    
+    /*---------------------------------------------------------------------*/
+    /*------------------------------ FOOTER -------------------------------*/
+    /*---------------------------------------------------------------------*/
+    
+    
     footer{
         text-align: center;
         background-color: #fff;
     }
-    #caja12{
+    #caja_bottom{
         padding: 50px 0;
         border-bottom: 1px solid #e5e5e5;
     }
