@@ -161,6 +161,7 @@
         font-size: 18px;
     }
     /*--- Boton CLB ------- */
+   
     #slider .image_slider a{
         text-align: center;
         background-color: #2541A5;
@@ -224,13 +225,13 @@
        padding: 40px 0;
         
     }
-    .col-xs-5ths,.col-sm-5ths{
+    #quicklinks .col-xs-5ths,#quicklinks .col-sm-5ths{
         position: relative;
         min-height: 1px;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .col-xs-5ths {
+    #quicklinks .col-xs-5ths {
         width: 20%;
         float: left;
     }
@@ -254,16 +255,143 @@
     #ahorros{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
-        text-align: center;
-        padding-top: 100px
+        padding-top: 100px;
+        overflow: hidden;
     }
+    #ahorros .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    /* ---- CAJA ARRIBA --- */
     #izq_box{
-       padding: 50px 0;
+       padding: 30px 0;
        border-bottom: 1px solid #e5e5e5;
     }
+    
+    
+    
+    /*--- Caja arriba izquierda ---- */
+    #izq_box .text_izq{
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        max-width: 50%;
+        bottom: 90px;
+        left: 20px;
+    }
+    #izq_box .text_izq .texto_p{
+        color: black;
+        font-family: SourceSansProRegular;
+        font-weight: bold;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+    #izq_box .text_izq .texto_h1{
+        color: #3c67de;
+        font-family: SourceSansProBold;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: -2px;
+    }
+    #izq_box .text_izq .texto_h2{
+        color:  #2541A5;
+        font-family: SourceSansProBold;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+    }
+    
+    
+    /*--- Caja arriba derecha ---- */
+    #izq_box .img_der{
+        position: absolute;
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        bottom: -50px;
+        right: -30px;
+        overflow: hidden;
+    }
+    #izq_box .img_der img{
+        width: 200px;
+        right: 0;
+        position: relative;
+        
+    }
+    
+    
+    
+    
+    /* --- CAJA ABAJO ---- */
     #der_box{
        padding: 50px 0;
        background-color: #fff;
+    }
+    
+    #der_box .text_der{
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        max-width: 70%;
+        left: 20px;
+    }
+    
+    #der_box .text_der .texto_h3{
+        color: #1d1d1d;
+        font-family: SourceSansProBold;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    #der_box .texto_pa{
+        color: black;
+        font-family: SourceSansProRegular;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 20px 0;
+    }
+    #der_box .text_der ul li{
+        color: #3c67de;
+        margin-left: 30px;
+    }
+    #der_box .texto_pa2{
+        color: black;
+        font-family: SourceSansProRegular;
+        font-weight: normal;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    #der_box .texto_h2{
+        color:  #2541A5;
+        font-family: SourceSansProBold;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+    }
+    
+    /*--- Boton Sections ------- */
+   
+    #der_box .text_der a{
+        text-align: center;
+        background-color: #3c67de;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: SourceSansProBold;
+        letter-spacing: 0.5px;
+        font-size: 1.2em;
+        padding: 15px 40px;
+        margin-top: 210px;
+    }
+    #der_box .text_der a:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+    #der_box .text_der a span{
+        padding-top: 2px;
     }
     
     
@@ -274,10 +402,14 @@
     #cesantias{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
-        text-align: center;
-        padding-top: 100px
+        padding-top: 100px;
+        overflow: hidden;
     }
-    
+    #cesantias .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     
     /*---------------------------------------------------------------------*/
     /*------------------------- SECCION VIVIENDA --------------------------*/
@@ -286,10 +418,31 @@
     #vivienda{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
-        text-align: center;
-        padding-top: 100px
+        padding-top: 100px;
+        overflow: hidden;
+    }
+    #vivienda .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
     
+    #izq_box .text_izq img{
+        float: left;
+        display: inline-block;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    #izq_box .text_izq .texto_p2{
+        float: left;
+        
+        display: inline-block;
+        color: #333333;
+        font-family: SourceSansProRegular;
+        font-weight: bold;
+        font-size: 1.4em;
+        cursor: pointer;
+    }
     
     /*---------------------------------------------------------------------*/
     /*------------------------- SECCION EDUCACION --------------------------*/
@@ -298,10 +451,14 @@
     #educacion{
         border-bottom: 1px solid #e5e5e5;
         background-color: #F7F8FA;
-        text-align: center;
-        padding-top: 100px
+        padding-top: 100px;
+        overflow: hidden;
     }
-    
+    #educacion .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     
     /*---------------------------------------------------------------------*/
     /*-------------------------- SECCION AYUDA ----------------------------*/
