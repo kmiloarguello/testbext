@@ -169,7 +169,9 @@
                         <div class="text_der">
                             <h3 class="texto_h3">Simula tu crédito</h3>
                             <p class="texto_pa">Por el solo hecho de <b>ahorrar</b> o tener sus cesantías en el FNA, puede tener acceso a estudio de financiamiento de <b>vivienda.</b></p>
-                            <a href="#" role="button"><span>Iniciar simulación ›</span></a>
+                            <p class="texto_pa">Ingresos mensuales:</p>
+                            <input class="input1" type="text" placeholder="$"/>
+                            <a class="boton1" href="#" role="button"><span>Iniciar simulación ›</span></a>
                             <h3 class="texto_h3">Puedes ver...</h3>
                             <ul>
                                 <li><p class="texto_pa2">Requisitos</p></li>
@@ -200,7 +202,8 @@
                             <h3 class="texto_h3">Simula tu crédito</h3>
                             <p class="texto_pa">Puedes acceder a un crédito educativo tus <b>cesantias</b> o <b>ahorros voluntarios.</b></p>
                             <p class="texto_pa">Ingresos mensuales:</p>
-                            <a href="#" role="button"><span>Iniciar simulación ›</span></a>
+                            <input class="input1" type="text" placeholder="$"/>
+                            <a class="boton1" href="#" role="button"><span>Iniciar simulación ›</span></a>
                             <h3 class="texto_h3">Puedes ver...</h3>
                             <ul>
                                 <li><p class="texto_pa2">Requisitos</p></li>
@@ -215,13 +218,134 @@
         <section class="col-lg-12" id="ayuda">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_izq"><h1>Izquierda</h1></div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_cen"><h1>Centro</h1></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_izq">
+                        <h1 class="texto_h1">Ayuda</h1>
+                        <p class="texto_p">Te ayudamos a solucionar tus dudas e inquietudes.</p>
+                        <hr>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_cen">
+                        
+                        <div class="dropdown">
+                             <a data-toggle="dropdown" id="dropdownMenu1" aria-haspopup="true" aria-expanded="true" class="boton_drop" role="button"><span>Preguntas frecuentes en <b>Vivienda</b></span><span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li>Ahorros</li>
+                                <li>Cesantías</li>
+                                <li>Educación</li>
+                              </ul>
+                        </div>
+                        
+                        <div id="preguntas">
+                            
+                            <ul id="ask">
+                                <li class="ask_1">
+                                    <div class="pregunta">
+                                        <p>¿Cuales son los beneficios de tener el crédito con el FNA?</p>
+                                    </div>
+                                    <div class="respuesta">
+                                        <p>R/ Texto de respuesta.</p>
+                                    </div>
+                                    <span class="ver_mas">
+                                        <img src="img/ico-vermas.svg" alt="logo de ver más" height="40px;"></img>
+                                    </span>
+                                </li>
+                                <hr>
+                                <li class="ask_2">
+                                    <div class="pregunta">
+                                        <p>¿Qué documentos necesito para solicitar un crédito?</p>
+                                    </div>
+                                    <div class="respuesta">
+                                        <p>R/ Texto de respuesta.</p>
+                                    </div>
+                                    <span class="ver_mas">
+                                        <img src="img/ico-vermas.svg" alt="logo de ver más" height="40px;"></img>
+                                    </span>
+                                </li>
+                                <hr>
+                                <li class="ask_3">
+                                    <div class="pregunta">
+                                        <p>¿Cuánto se demora el estudio de crédito en FNA?</p>
+                                    </div>
+                                    <div class="respuesta">
+                                        <p>R/ Texto de respuesta.</p>
+                                    </div>
+                                    <span class="ver_mas">
+                                        <img src="img/ico-vermas.svg" alt="logo de ver más" height="40px;"></img>
+                                    </span>
+                                </li>
+                                <hr>
+                                <li class="ask_4">
+                                    <div class="pregunta">
+                                        <p>¿Cómo puedo obtener información de mi crédito?</p>
+                                    </div>
+                                    <div class="respuesta">
+                                        <p>R/ Texto de respuesta.</p>
+                                    </div>
+                                    <span class="ver_mas">
+                                        <img src="img/ico-vermas.svg" alt="logo de ver más" height="40px;"></img>
+                                    </span>
+                                </li>
+                            </ul>
+                            
+                            <hr>
+                            <div id="todas_preguntas">
+                                <p>Consulta todas las preguntas ›</p>
+                            </div>
+                            
+                        </div>
+                         
+                    </div>
+                    
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_der">
-                        <div class="subcaja"><p>Chat</p></div>
-                        <div class="subcaja"><p>Correo</p></div>
-                        <div class="subcaja"><p>Puntos</p></div>
-                        <div class="subcaja2"><p>Chat</p></div>
+                        <div class="subcaja">
+                            <h2 class="texto_h2">Nuestros Canales de Atención</h2>
+                            <div class="sub_text">
+                                <img src="img/ico-chat.svg" alt="Icono de chat"></img>
+                                <div  class="s_text">
+                                    <h3>Chat</h3>
+                                    <p>Habla con un asesor o inicia una videollamada ›</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subcaja">
+                            <div class="sub_text">
+                                <img src="img/ico-sobre.svg" alt="Icono de Mensaje"></img>
+                                <div  class="s_text">
+                                    <h3>Correo Electrónico</h3>
+                                    <p>Dejanos un mensaje o envía tus notificaciones judiciales ›</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subcaja">
+                            <div class="sub_text">
+                                <img src="img/ico-oficinas.svg" alt="Icono de Ubicación"></img>
+                                <div  class="s_text">
+                                    <h3>Oficinas</h3>
+                                    <p>Encuentra un punto de atención y agenda una cita ›</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subcaja2">
+                            <div class="telefono">
+                                <h2>Teléfonos</h2>
+                                <h3>Bogotá</h3>
+                                <p>(+571) 307 7070</p>
+                                <br>
+                                <h3>Línea Gratuita</h3>
+                                <p>01 8000 52 7070</p>
+                            </div>
+                            
+                            <div class="whatsapp">
+                                <h3>Whatsapp</h3>
+                                <ul>
+                                    <li>322 590 0222</li>
+                                    <li>322 594 7373</li>
+                                    <li>322 597 2323</li>
+                                    <li>322 589 6333</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -230,11 +354,60 @@
         <footer class="col-lg-12">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_bottom"><h1>Izquierda</h1></div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_bottom"><h1>Centro</h1></div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_bottom"><h1>Derecha</h1></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_bottom">
+                        <h2>Punto Atención Principal-Correspondencia</h2>
+                        <p>Calle 12 No 65-11 Puente Aranda</p>
+                        <p>Bogotá-Colombia</p>
+                        <p><b>Teléfono:</b>(+571) 307 7070</p>
+                        <p><b>Línea gratiuta:</b>01 8000 52 70 70</p>
+                        <p><b>Fax:</b>(+571) 555 5555</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_bottom">
+                        <h2>Sede Principal</h2>
+                        <p>Cra 65 No 11 - 83 Puente Aranda Bogotá - Colombia</p>
+                        <p>Atención de Lunes a Viernes 7:30 am a 4:30 pm</p>
+                        <p><b>Notificaciones Judiciales:</b></p>
+                        <p style="color:#3c67de;">notificacionesjudiciales@fna.gov.co</p>
+                        <br>
+                        <h2>Descarga nuestra app</h2>
+                        <div class="link_apps">
+                            <a href="#" role="button">
+                                <img src="img/ico-apple.svg" alt="Logo Apple"></img>
+                                <span>App Store</span>
+                            </a>
+                            <a href="#" role="button">
+                                <img src="img/ico-android.svg" alt="Logo Android"></img>
+                                <span>Google Play</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="caja_bottom">
+                        <h2>Recibe nuestras noticias</h2>
+                        <form>
+                            <input type="text" name="Correo" placeholder="Correo electrónico"/>
+                            <a role="button" id="boton_correo"><span>Suscribirme</span></a>
+                        </form>
+                        <h2 style="text-align:center;">Última actualización</h2>
+                        <p style="text-align:center;">20 de Septiembre de 2016</p>
+                        <img id="gob_1" src="img/logo-lemagobierno.png" alt="logo todos por un nuevo pais">
+                        <img id="gob_1" src="img/logo-minvivienda.png" alt="logo ministerio vivienda">
+                        <img id="gob_1" src="img/logos-calidad.svg" alt="logo registro calidad">
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h1>Centro</h1></div>
+                <hr>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 abajo">
+                    <ul>
+                        <li>Sobre el FNA</li>
+                        <li>Transparencia y acceso a la información</li>
+                        <li>Prensa</li>
+                        <li>Mapa del Sitio</li>
+                        <li>PQRyD</li>
+                        <li>Condiciones y políticas</li>
+                    </ul>
+                    <p style="text-align:center;">Ⓒ FNA Todos los derechos reservados 2016</p>
+                </div>
+                
             </div>
         </footer>
         

@@ -349,7 +349,6 @@
         color: black;
         font-family: SourceSansProRegular;
         font-size: 16px;
-        cursor: pointer;
         padding: 20px 0;
     }
     #der_box .text_der ul li{
@@ -435,7 +434,6 @@
     }
     #izq_box .text_izq .texto_p2{
         float: left;
-        
         display: inline-block;
         color: #333333;
         font-family: SourceSansProRegular;
@@ -460,49 +458,418 @@
         width: 100%;
     }
     
+    
+    
+    /*--- Input ------- */
+    #der_box input{
+        margin-bottom: 15px;
+    }
+    #der_box .input1{
+        /*color: #3c67de;*/
+        text-decoration: none;
+        border-radius: 5px 5px 0px 0px;
+        font-family: SourceSansProRegular;
+        letter-spacing: 0.5px;
+        font-size: 1.3em;
+        padding: 15px 25px;
+        text-align: left;
+    }
+    ::-webkit-input-placeholder {
+    	color: #3c67de;
+    	margin-top:-50px;
+    	
+    }
+    ::-moz-placeholder {
+    	color: #3c67de;
+    	margin-top:-50px;
+    }
+    
+    /*--- Boton Sections ------- */
+   
+    #der_box .text_der .boton1{
+        text-align: center;
+        background-color: #3c67de;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0px 0px 5px 5px;
+        font-family: SourceSansProBold;
+        letter-spacing: 0.5px;
+        font-size: 1.2em;
+        padding: 15px 40px;
+        margin-top: 210px;
+    }
+    #der_box .text_der .boton1:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+    #der_box .text_der .boton1 span{
+        padding-top: 2px;
+    }
+    
+    
     /*---------------------------------------------------------------------*/
     /*-------------------------- SECCION AYUDA ----------------------------*/
     /*---------------------------------------------------------------------*/
     
     #ayuda{
-        background: #3c67de;
-        text-align: center;
+        overflow: hidden;
+    }
+    #ayuda .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
     
+    /* ---- CAJA ARRIBA ----- */
     #caja_izq{
         background-color: #3c67de;
         color: white;
-        padding: 50px 0;
+        padding: 50px 0px;
     }
+    #caja_izq .texto_h1{
+        color: white;
+        font-family: SourceSansProBold;
+        font-size: 60px;
+        line-height: .6;
+        letter-spacing: -4px;
+        padding-left: 20px;
+    }
+    
+    #caja_izq .texto_p{
+        color: white;
+        font-family: SourceSansProRegular;
+        font-weight: normal;
+        font-size: 1.2em;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+    hr{
+        border-color:rgba(255,255,255,0.1);
+        background-color:rgba(255,255,255,0.1);
+    }
+    
+    
+    /* ---- CAJA CENTRO ----- */
     #caja_cen{
         background-color: #3c67de;
         padding: 50px 0;
         color: white;
     }
-    #caja1_der{
+    /*--- Dropdown ------- */
+    .dropdown{
+        text-align: center;
+    }
+    #caja_cen a{
+        text-align: center;
+        background-color: #3c67de;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-family: SourceSansProRegular;
+        letter-spacing: 0.5px;
+        font-size: 1.2em;
+        padding: 15px 40px;
+    }
+    #caja_cen a:hover{
+        color: #fff;
+        text-decoration: none;
+        background-color: #2541A5;
+    }
+    #caja_cen a span{
+        padding-top: 2px;
+    }
+    .dropdown-menu{
+        margin-left: 200px;
+        margin-top: 12px;
+        font-family: SourceSansProRegular;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: #3c67de;
+    }
+    .dropdown ul li{
+        padding: 10px 40px;
+        cursor: pointer;
+    }
+    .dropdown ul li:hover{
+        background-color: #2541A5;
+    }
+    
+    
+    /* ----------- Preguntas --------*/
+    
+    #preguntas{
+        text-align: left;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #preguntas ul{
+        padding: 0px 20px;
+        list-style: none;
+    }
+    #preguntas ul li{
+        text-decoration: none;
+    }
+    #preguntas .pregunta{
+        font-family: SourceSansProSemiBold;
+        font-size: 19px;
+        cursor: pointer;
+        max-width: 80%;
+    }
+    
+    #preguntas .respuesta{
+        font-family: SourceSansProRegular;
+        font-size: 16px;
+        max-width: 90%;
+    }
+    #preguntas .ver_mas{
+        webkit-transition: all ease 0.3s;
+        -moz-transition: all ease 0.3s;
+        -ms-transition: all ease 0.3s;
+        -o-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: -80px;
+        right: 20px;
+    }
+    #preguntas #todas_preguntas{
+        margin-left: 20px;
+        margin-top: 20px;
+        max-width: 80%;
+        font-family: SourceSansProBold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    
+    
+    /* ---- CAJA ABAJO ----- */
+    #caja_der{
         background-color: #fff;
+        z-index: 3;
         padding: 50px 0;
     }
     
     .subcaja{
         border-bottom: 1px solid #e5e5e5;
+        padding: 0px 20px;
     }
+    /* --- Texto azul ---- */
+    #caja_der .subcaja .texto_h2{
+        color:  #2541A5;
+        font-family: SourceSansProBold;
+        font-size: 18px;
+        line-height: 1;
+    }
+    
+    #caja_der .subcaja .sub_text{
+        vertical-align: top;
+    }
+    #caja_der .subcaja img{
+        display: inline-block;
+        max-width: 45px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+    }
+    #caja_der .subcaja .s_text{
+        display: inline-block;
+        margin-bottom: 5px;
+        max-width: 60%;
+    }
+    #caja_der .subcaja h3{
+        font-size: 22px;
+        font-family: SourceSansProBold;
+    }
+    
     .subcaja2{
         background-color: #F7F8FA;
+        padding: 20px 20px;
+        width: 100%;
+        background: #F7F8FA;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        -ms-box-sizing: content-box;
+        -o-box-sizing: content-box;
+        box-sizing: content-box;
+        font-size: 0;
+        position: relative;
+   
+    }
+    #caja_der .subcaja2 .telefono{
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        width: 50%;
+    }
+    #caja_der .subcaja2 h2{
+        font-size: 20px;
+        font-family: SourceSansProBold;
+    }
+    #caja_der .subcaja2 h3{
+        color: #2541A5;
+        font-size: 16px;
+        font-family: SourceSansProBold;
+    }
+    #caja_der .subcaja2 .whatsapp{
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        width: 50%;
+    }
+    #caja_der .subcaja2 .whatsapp h3{
+        margin-top: 60px;
+        color: #2541A5;
+        font-size: 16px;
+        font-family: SourceSansProBold;
     }
     
     /*---------------------------------------------------------------------*/
     /*------------------------------ FOOTER -------------------------------*/
     /*---------------------------------------------------------------------*/
     
-    
     footer{
-        text-align: center;
         background-color: #fff;
-    }
-    #caja_bottom{
-        padding: 50px 0;
         border-bottom: 1px solid #e5e5e5;
     }
+    footer .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    footer h2{
+        font-size: 17px;
+        font-family: SourceSansProSemiBold;
+    }
     
+    .link_apps{
+        text-align: center;
+        width: 100%;
+    }
+    
+    /*--- Boton 1 Footer ------- */
+   
+    footer .link_apps a{
+        text-align: center;
+        background-color: #2541A5;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: SourceSansProRegular;
+        font-size: 1.1em;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 15px 20px;
+        z-index: 10;
+    }
+    footer .link_apps a:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+    footer .link_apps a img{
+        
+        width: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    footer .link_apps a span{
+        padding-top: 2px;
+    }
+    
+    
+    /*--- Footer Input ------- */
+    footer form{
+        text-align: center;
+    }
+    footer form input{
+        margin-bottom: 15px;
+    }
+    footer form input{
+        text-decoration: none;
+        border-radius: 5px 0px 0px 5px;
+        font-family: SourceSansProRegular;
+        letter-spacing: 0.5px;
+        font-size: normal;
+        padding: 14px 20px;
+        text-align: left;
+        margin-right: -5px;
+    }
+    ::-webkit-input-placeholder {
+    	color: #000;
+    	margin-top:-50px;
+    	
+    }
+    ::-moz-placeholder {
+    	color: #000;
+    	margin-top:-50px;
+    }
+    
+    
+    /*--- Boton 2 Footer ------- */
+   
+    footer form a{
+        text-align: center;
+        background-color: #3c67de;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0px 5px 5px 0px;
+        font-family: SourceSansProRegular;
+        font-size: 1.1em;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 15px 20px;
+        z-index: 10;
+    }
+    footer form a:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+    footer form a span{
+        padding-top: 2px;
+    }
+    
+    /* --- Imagenes Gob ---- */
+    
+    #gob_1{
+        width: 150px;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .abajo{
+        
+    }
+    
+    .abajo ul{
+        list-style: none;
+        font-size: 16px;
+        margin: 40px 0px 65px 0px;
+        padding: 0px;
+    }
+    .abajo ul li{
+        width: 49%;
+        font-family: SourceSansProRegular;
+        font-size: 1em;
+        color: #686868;
+        display: inline-block;
+        margin: 15px 0px!important;
+        padding: 0% 3%;
+        cursor: pointer;
+    }
+    .abajo p{
+        font-family: SourceSansProRegular;
+        font-size: 1em;
+        color: #686868;
+    }
 }
