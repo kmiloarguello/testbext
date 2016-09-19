@@ -250,6 +250,11 @@
         bottom: 90px;
         left: 20px;
     }
+    
+    #izq_box .text_izq .min_text{
+        display: none;
+    }
+    
     #izq_box .text_izq .texto_p{
         color: black;
         font-family: SourceSansProRegular;
@@ -304,6 +309,15 @@
         z-index: 2;
         display: inline-block;
         left: 20px;
+    }
+    #der_box .text_der2{
+        display: none;
+    }
+    #der_box form{
+        width: 60%;
+    }
+    #der_box .text_der .left_boton{
+        display: none;
     }
     
     #der_box .text_der .texto_h3{
@@ -463,7 +477,7 @@
         letter-spacing: 0.5px;
         font-size: 1.2em;
         padding: 15px 40px;
-        margin-top: 210px;
+        /*margin-top: 210px;*/
     }
     #der_box .text_der .boton1:hover{
         color: #fff;

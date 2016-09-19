@@ -254,6 +254,12 @@
         bottom: 90px;
         left: 20px;
     }
+    
+    #izq_box .text_izq .min_text{
+        display: none;
+    }
+    
+    
     #izq_box .text_izq .texto_p{
         color: black;
         font-family: SourceSansProRegular;
@@ -310,7 +316,12 @@
         
         left: 20px;
     }
-    
+    /*#der_box form{*/
+    /*    width: 60%;*/
+    /*}*/
+    #der_box .text_der .left_boton{
+        display: none;
+    }
     #der_box .text_der .texto_h3{
         color: #1d1d1d;
         font-family: SourceSansProBold;
@@ -368,6 +379,10 @@
     }
     #der_box .text_der a span{
         padding-top: 2px;
+    }
+    
+    #der_box .text_der2{
+        display: none;
     }
     
     
@@ -472,7 +487,7 @@
         letter-spacing: 0.5px;
         font-size: 1.2em;
         padding: 15px 40px;
-        margin-top: 210px;
+        /*margin-top: 210px;*/
     }
     #der_box .text_der .boton1:hover{
         color: #fff;
@@ -535,6 +550,30 @@
     .dropdown{
         text-align: center;
     }
+    
+    #caja_cen button{
+        text-align: center;
+        background-color: #3c67de;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-family: SourceSansProRegular;
+        letter-spacing: 0.5px;
+        font-size: 1.2em;
+        padding: 15px 40px;
+    }
+    #caja_cen button:hover{
+        color: #fff;
+        text-decoration: none;
+        background-color: #2541A5;
+    }
+    #caja_cen button span{
+        padding-top: 2px;
+    }
+    
+    
+    
     #caja_cen a{
         text-align: center;
         background-color: #3c67de;
