@@ -38,6 +38,15 @@
         text-align: center;
         width: 100%;
     }
+    /*-- IDIOMA -- */
+    
+    .links_up .idioma{
+        display: none;
+    }
+    
+    .links_up .search{
+        display: none;
+    }
 
     /* ----- LOGO FNA --- */
     
@@ -106,6 +115,9 @@
     /* ------- Header ----- */
     header{
         background-color: #fff;
+    }
+    header .logo{
+        display: none;
     }
 
     /*---------------------------------------------------------------------*/
@@ -177,6 +189,7 @@
       padding: 10px 0;
       border-right: 1px solid #e5e5e5;
     }
+    
     #nav2{
         padding: 10px 0;
         border-right: 1px solid #e5e5e5;
@@ -192,10 +205,26 @@
     #nav5{
         padding: 10px 0;
     }
-    #nav6{
-       padding: 40px 0;
-        
+    
+    #nav_e_1{
+      display:none;
     }
+    #nav_e_2{
+      display:none;
+    }
+    #nav_e_3{
+      display:none;
+    }
+    #nav_e_4{
+      display:none;
+    }
+    #nav_e_5{
+      display:none;
+    }
+    #nav_e_6{
+      display: none;
+    }
+    
     #quicklinks .col-xs-5ths,#quicklinks .col-sm-5ths{
         position: relative;
         min-height: 1px;
@@ -540,7 +569,7 @@
     .dropdown{
         text-align: center;
     }
-    #caja_cen a{
+    #caja_cen button{
         text-align: center;
         background-color: #3c67de;
         color: #fff;
@@ -552,12 +581,12 @@
         font-size: 1.2em;
         padding: 15px 40px;
     }
-    #caja_cen a:hover{
+    #caja_cen button:hover{
         color: #fff;
         text-decoration: none;
         background-color: #2541A5;
     }
-    #caja_cen a span{
+    #caja_cen button span{
         padding-top: 2px;
     }
     .dropdown-menu{
@@ -821,6 +850,16 @@
     
     /* --- Imagenes Gob ---- */
     
+    #gob_2{
+        display: none;
+    }
+    #foo_2{
+        display: none;
+    }
+    #foo_1{
+        display: block;
+    }
+
     #gob_1{
         width: 150px;
         display: block;

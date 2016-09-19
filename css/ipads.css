@@ -38,6 +38,15 @@
         width: 100%;
     }
     
+    /*-- IDIOMA -- */
+    
+    .links_up .idioma{
+        display: none;
+    }
+    .links_up .search{
+        display: none;
+    }
+    
     /* ----- LOGO FNA --- */
     
     .links_up .logo{
@@ -108,6 +117,10 @@
         padding: 0px;
     }
     
+    header .logo{
+        display: none;
+    }
+
     /*---------------------------------------------------------------------*/
     /*------------------------------ SLIDER -------------------------------*/
     /*---------------------------------------------------------------------*/
@@ -189,15 +202,31 @@
     }
     #nav4{
         padding: 10px 0;
-        /*border-right: 1px solid #e5e5e5;*/
+        border-right: 1px solid #e5e5e5;
     }
     #nav5{
         padding: 10px 0;
     }
-    #nav6{
-       padding: 40px 0;
-        
+    
+    #nav_e_1{
+      display:none;
     }
+    #nav_e_2{
+      display:none;
+    }
+    #nav_e_3{
+      display:none;
+    }
+    #nav_e_4{
+      display:none;
+    }
+    #nav_e_5{
+      display:none;
+    }
+    #nav_e_6{
+      display: none;
+    }
+    
     #quicklinks .col-xs-5ths,#quicklinks .col-sm-5ths{
         position: relative;
         min-height: 1px;
@@ -284,7 +313,7 @@
         width: 50%;
         height: auto;
         bottom: -50px;
-        right: -30px;
+        right: -100px;
         overflow: hidden;
     }
     #izq_box .img_der img{
@@ -525,6 +554,7 @@
     
     #ayuda{
         overflow: hidden;
+        background: #3c67de;
     }
     
     #ayuda .container{

@@ -11,6 +11,24 @@ and (min-width : 1224px) {
     }
     
     /*---------------------------------------------------------------------*/
+    /*-------------------------- SourceSansPro ----------------------------*/
+    /*---------------------------------------------------------------------*/
+    
+    @font-face {
+        font-family: SourceSansProRegular;
+        src: url('fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+    }
+    @font-face {
+        font-family: SourceSansProBold;
+        src: url('fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: SourceSansProSemiBold;
+        src: url('fonts/Source_Sans_Pro/SourceSansPro-Semibold.ttf');
+    }
+    
+    /*---------------------------------------------------------------------*/
     /*------------------------------ HEADER -------------------------------*/
     /*---------------------------------------------------------------------*/
     
@@ -18,6 +36,70 @@ and (min-width : 1224px) {
         padding: 15px 0;
         background-color: #f5f5f5;
     }
+    
+        /* ----- LOGO FNA --- */
+    
+    .links_up .logo{
+        display: inline-block;
+        float: left;
+        margin-left: 25px;
+    }
+    
+    .links_up .logo_fna{
+        width: 55px;
+        height: auto;
+    }
+    
+    /* ----- Boton Fondo en Linea ----- */
+    
+    .links_up .boton_FEL{
+        display: inline-block;
+        margin-left: 50%;
+        margin-top: 10px;
+    }
+    
+    .links_up .boton_FEL a{
+        text-align: center;
+        background-color: #3c67de;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 10px;
+        border-radius: 5px;
+        -webkit-transition: all ease 0.2s; 
+        -moz-transition: all ease 0.2s;
+        -ms-transition: all ease 0.2s;
+        -o-transition: all ease 0.2s;
+        transition: all ease 0.2s;
+        font-family: SourceSansProRegular;
+        font-size: 1em;
+    }
+    .links_up .boton_FEL a:hover{
+        color: #fff;
+        text-decoration: none;
+        background-color: #003685;
+    }
+    .links_up .boton_FEL a img{
+        width: 23px;
+        height: 23px;
+        margin: 5px 5px 11px 0px;
+    }
+    .links_up .boton_FEL a span{
+        padding-top: 2px;
+    }
+    
+    
+    /* --- MENU NAV --- */
+    .links_up .menu_nav{
+        display: inline-block;
+        float: right;
+        margin-right: 25px;
+        margin-top: 7px;
+    }
+    .links_up .menu_nav .menu_movil{
+        height: 40px;
+        width: 40px;
+    }
+    
     header{
         background-color: #fff;
         padding: 30px 0;
@@ -141,7 +223,6 @@ and (min-width : 1224px) {
     .subcaja2{
         background-color: #F7F8FA;
     }
-    
     /*---------------------------------------------------------------------*/
     /*------------------------------ FOOTER -------------------------------*/
     /*---------------------------------------------------------------------*/
