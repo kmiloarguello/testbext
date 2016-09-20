@@ -1,18 +1,36 @@
 /* MAIN JS */
 
-// var mq = window.matchMedia( "screen and (max-width : 480px)" );
+$(document).ready(function(){
+  var altura = $('.fijo_menu').offset().top;
+
+  
+  $(window).on('scroll', function(){
+      if( $(window).scrollTop() > altura){
+          $('.fijo_menu').addClass('menu-fixed');
+      } else {
+        $('.fijo_menu').removeClass('menu-fixed');
+      }
+  
+  });
+  
+  
+    $('.ir-arriba').click(function(){
+        $('body,html').animate({
+            scrollTop: '0px'
+        },500);
+    });
     
-if (screen.width >= 767) {
-  document.getElementById("ahorros").className = "";
-  document.getElementById("cesantias").className = "";
-  document.getElementById("vivienda").className = "";
-  document.getElementById("educacion").className = "";
-  document.getElementById("ayuda").className = "";
-} 
-else {
-  document.getElementById("ahorros").className = "container";
-  document.getElementById("cesantias").className = "container";
-  document.getElementById("vivienda").className = "container";
-  document.getElementById("educacion").className = "container";
-  document.getElementById("ayuda").className = "container";
-}
+    $(window).scroll(function(){
+        
+        if( $(this).scrollTop() > 0 ){
+            $('.ir-arriba').slideDown(500);
+        }else{
+            $('.ir-arriba').slideUp(500);
+        }
+        
+    });
+    
+    $.fn.scrollBottom = function() { 
+        return $(document).height() - this.scrollTop() - this.height(); 
+    };
+});
