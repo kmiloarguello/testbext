@@ -861,6 +861,9 @@
     #foo_1{
         display: block;
     }
+    .images_2{
+        display:none;
+    }
 
     #gob_1{
         width: 150px;
