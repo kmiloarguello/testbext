@@ -164,9 +164,9 @@
         transition: all ease 0.3s;
         
     }
-    header .principal_menu ul li a:hover{
-        border-bottom: solid #3c67de 3pt;
-    }
+    /*header .principal_menu ul li a:hover{*/
+    /*    border-bottom: solid #3c67de 3pt;*/
+    /*}*/
     
     /*--- Imagenes Gobierno --- */
     
