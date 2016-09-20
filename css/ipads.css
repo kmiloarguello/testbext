@@ -120,6 +120,9 @@
     header .logo{
         display: none;
     }
+    header .principal_menu{
+        display: none;
+    }
 
     /*---------------------------------------------------------------------*/
     /*------------------------------ SLIDER -------------------------------*/
@@ -248,7 +251,7 @@
         font-size: 14px;
         margin: 0;
     }
-    
+
     /*---------------------------------------------------------------------*/
     /*------------------------- SECCION AHORROS ---------------------------*/
     /*---------------------------------------------------------------------*/
@@ -262,14 +265,13 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        
     }
     /* ---- CAJA ARRIBA --- */
     #izq_box{
        padding: 100px 0;
        border-bottom: 1px solid #e5e5e5;
     }
-
+    
     /*--- Caja arriba izquierda ---- */
     #izq_box .text_izq{
         position: relative;
@@ -928,10 +930,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .abajo{
-        
-    }
-    
     .abajo ul{
         list-style: none;
         font-size: 16px;
