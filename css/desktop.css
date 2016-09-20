@@ -167,7 +167,7 @@
         background: #fff;
         height: 50px;
         display: block;
-        top: 90px;
+        top: -10px;
         z-index: 999;
         position: absolute;
         border-bottom: none;
@@ -177,12 +177,13 @@
         border-radius: 6px 6px 0px 0px;
         cursor: pointer;
     }
-
+    
+    /*MENU PRINCIPAL*/
     header .principal_menu li{
         display: inline-block;
         vertical-align: top;
     }
-    header .principal_menu ul li a{
+    header .principal_menu .p_nav li a{
         /*border-bottom: solid #fff 2pt;*/
         padding: 2px 0px;
         text-decoration: none;
@@ -205,42 +206,49 @@
     /*    border-bottom: solid #3c67de 3pt;*/
     /*}*/
     
-    
-    header .principal_menu ul li:hover .personas_menu{
+    /*ON HOVER*/
+    header .principal_menu ul li:hover .personas_menu,
+    header .principal_menu ul li:hover .empleadores_menu,
+    header .principal_menu ul li:hover .constructores_menu{
         display: block;
     }
+    
+    
+    /*HIJO 1*/
+    /*PERSONAS*/
+    /*CUADRO DE FONDO*/
     header .principal_menu ul li .personas_menu{
         display: none;
-        font-size: 0;
         padding: 0;
         position: absolute;
-        left: 0;
-        top: 140px;
+        left: -300px;
+        top: 39px;
+        width: 1200px;
         background-color: #fff;
-        border-radius: 0 5px 5px;
+        border-radius: 5px;
         z-index: 1;
         -webkit-box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
         -moz-box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
         box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        border: 1px solid #d3d3d3 !important;
     }
-    header .principal_menu ul li .personas_menu p{
+    /*PRMER TEXTO GRIS*/
+    header .principal_menu ul li .personas_menu .persona-texto{
         padding: 20px 50px;
         color: #686868;
         font-size: 18px;
     }
-    
     header .principal_menu ul li .personas_menu .seccion-menu{
         display: inline-block;
-        border-right: solid 1pt #ccc;
+        /*border-right: solid 1pt #ccc;*/
         border-top: solid 1pt #ccc;
         font-size: 14px;
         list-style: none;
-        height: 310px;
-        padding: 20px 60px 40px;
+        height: auto;
+        padding: 20px 61px;
         vertical-align: top;
-        min-width: 230px;
+        /*min-width: 230px;*/
     }
-    
     header .principal_menu ul li .personas_menu .seccion-menu li{
         font-size: 9px;
         color: #003685;
@@ -269,28 +277,95 @@
         font-weight: normal;
     }
     .seccion-menu ul{
-        list-style: none;
         margin: 0px;
         padding: 0 0 0 15px;
     }
     .seccion-menu ul li{
-        list-style: initial !Important;
         display: block;
-        list-style-type: disc;
-        font-size: 9px;
-        color: #003685;
         margin-bottom: 15px;
     }
     .seccion-menu ul li a{
         font-family: SourceSansProRegular;
         font-weight: normal;
         color: #003685;
-        font-size: 14px;
+        font-size: 9px;
         margin: 0;
         display: block;
-        max-width: 130px;
+        max-width: 150px;
         line-height: 1.1;
     }
+    
+    /*HIJO 2*/
+    /*EMPLEADORES*/
+    /*CUADRO DE FONDO*/
+    header .principal_menu ul li .empleadores_menu{
+        display: none;
+        font-size: 0;
+        padding: 0;
+        position: absolute;
+        left: -5px;
+        top: 39px;
+        border-radius: 0px 5px 5px 5px;
+        width: 300px;
+        background-color: #fff;
+        z-index: 1;
+        -webkit-box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        -moz-box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        border: 1px solid #d3d3d3 !important;
+
+    }
+    header .principal_menu ul li .empleadores_menu .seccion-menu{
+        list-style: none;
+        height: auto;
+        padding: 5px 15px;
+        vertical-align: top;
+        max-width: 250px;
+    }
+    ul.empleadores_menu li a{
+        display: block!important;
+        font-family: SourceSansProRegular;
+        font-weight: normal;
+        color: #003685;
+    }
+    
+    /*HIJO 3*/
+    /*CONSTRUCTORES y ATENCION*/
+    /*CUADRO DE FONDO*/
+    .mi_menu{
+        position: relative;
+    }
+    header .principal_menu ul li .constructores_menu{
+        display: none;
+        font-size: 0;
+        padding: 0;
+        position: absolute;
+        left: -5px;
+        top: 39px;
+        border-radius: 0px 5px 5px 5px;
+        width: 300px;
+        background-color: #fff;
+        z-index: 1;
+        -webkit-box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        -moz-box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        box-shadow: 0px 0px 10px rgba(40, 40, 40, 0.2);
+        border: 1px solid #d3d3d3 !important;
+    }
+    header .principal_menu ul li .constructores_menu .seccion-menu{
+        list-style: none;
+        height: auto;
+        padding: 5px 15px;
+        vertical-align: top;
+        max-width: 250px;
+    }
+    ul.constructores_menu li a{
+        display: block!important;
+        font-family: SourceSansProRegular;
+        font-weight: normal;
+        color: #003685;
+    }
+     
+    
     
     /*--- Imagenes Gobierno --- */
     
